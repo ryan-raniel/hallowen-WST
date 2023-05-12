@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Halloween</title>
+    <link rel="shortcut icon" href="assets/midia/pumpkin.png" type="image/x-icon">
+</head>
+
+
+<body>
+
+<div id="loader">
+    <p>Loading...</p>
+</div>
+
+<nav id="menu">
+
+    <div id="logo">
+
+    <h1>Halloween</h1>
+    <img src="assets/midia/pumpkin-icon.png">
+    
+    </div>
+   
+    <ul>
+      <li><a href="#"><img src="assets/midia/knife.png" alt="dry-tree.png">Página inicial</a></li>
+      <li><a href="#"><img src="assets/midia/pumpkin.png" alt="knife.png">Sobre</a></li>
+      <li><a href="#"><img src="assets/midia/dry-tree.png" alt="pumpkin.png">Contato</a></li>
+    </ul>
+
+</nav>  
+
+<header id="headline">
+
+    <h1>Trick or treat?</h1>  
+    <p>Halloween, or Halloween,  is a celebration observed in several countries, <br> mainly in the English-speaking world, on October 31, the eve of the <br> Western Christian feast of All Saints' Day.</p>
+    <a href="#">Conheça</a>
+</header>
+
+    
+
+
+<footer>
+
+</footer>  
+
+</body>
+<script>
+    /**
+     * Remove o loader por cima do site quando tudo estiver carregado,
+     * evitando assim a quebra de estilo durante o carregamento.
+     */
+    const loader = document.querySelector('#loader')
+    window.addEventListener('load', function() {
+        loader.style.display = 'none'   
+    })
+</script>
+</html>
